@@ -1,0 +1,1104 @@
+/*=================== fonts ====================*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400,500,500i");
+
+/*----------------------------------------------------*/
+
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #777777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.p0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+.section_gap {
+    padding: 120px 0 0;
+}
+
+.section_gap .row img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.more-potfolio {
+    margin: 1rem auto;
+}
+
+.website {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.website::before {
+    transition: all .5s ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.website:hover::before {
+    display: block;
+    background: rgba(228, 84, 71, 0.43);
+}
+
+@media (max-width: 991px) {
+    .section_gap {
+        padding: 80px 0 0;
+    }
+}
+
+.section_gap_top {
+    padding-top: 120px;
+}
+
+@media (max-width: 991px) {
+    .section_gap_top {
+        padding-top: 80px;
+    }
+}
+
+.section_gap_bottom {
+    padding-bottom: 120px;
+}
+
+@media (max-width: 991px) {
+    .section_gap_bottom {
+        padding-bottom: 80px;
+    }
+}
+
+.gray-bg {
+    background: #f9f9ff;
+}
+
+
+/* Main Title Area css
+============================================================================================ */
+
+.main-title {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+@media (max-width: 767px) {
+    .main-title {
+        margin-bottom: 40px;
+    }
+}
+
+.main-title h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .main-title h1 {
+        font-size: 36px;
+        padding-bottom: 0px !important;
+    }
+}
+
+.main-title h1:before {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    width: 100px;
+    content: "";
+    background: #e45447;
+    margin-left: -50px;
+}
+
+@media (max-width: 767px) {
+    .main-title h1:before {
+        display: none;
+    }
+}
+
+.main-title h1:after {
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    height: 10px;
+    width: 10px;
+    content: "";
+    background: #e45447;
+    margin-left: -5px;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .main-title h1:after {
+        display: none;
+    }
+}
+
+.main-title p {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    line-height: 26px;
+    color: #777777;
+    margin-bottom: 0px;
+    margin: auto;
+}
+
+
+/* End Main Title Area css
+============================================================================================ */
+
+.primary-btn {
+    display: inline-block;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 46px;
+    padding: 0 40px;
+    outline: none !important;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid #90acd1;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.primary-btn:hover {
+    background: #e45447;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.header_area {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: transparent;
+}
+
+.header_area .navbar-brand {
+    margin-right: 30px;
+}
+
+.header_area .navbar-brand img {
+    width: 100px
+}
+
+.header_area .menu_nav {
+    width: 100%;
+}
+
+.header_area .navbar {
+    background: transparent;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.header_area .navbar .nav .nav-item {
+    margin-right: 45px;
+}
+
+.header_area .navbar .nav .nav-item .nav-link {
+    font: 500 12px/100px "Roboto", sans-serif;
+    text-transform: capitalize;
+    color: #000;
+    padding: 0px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header_area .navbar .nav .nav-item .nav-link:after {
+    display: none;
+}
+
+.header_area .navbar .nav .nav-item:hover .nav-link,
+.header_area .navbar .nav .nav-item.active .nav-link {
+    color: #ffffff;
+}
+
+.header_area .navbar .nav .nav-item.submenu {
+    position: relative;
+}
+
+.header_area .navbar .nav .nav-item.submenu ul {
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0px;
+    background: #ffd200;
+}
+
+@media (min-width: 992px) {
+    .header_area .navbar .nav .nav-item.submenu ul {
+        position: absolute;
+        top: 120%;
+        left: 0px;
+        min-width: 200px;
+        text-align: left;
+        opacity: 0;
+        transition: all 300ms ease-in;
+        visibility: hidden;
+        display: block;
+        border: none;
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4);
+    }
+}
+
+.header_area .navbar .nav .nav-item.submenu ul:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #eeeeee transparent transparent transparent;
+    position: absolute;
+    right: 24px;
+    top: 45px;
+    z-index: 3;
+    opacity: 0;
+    transition: all 400ms linear;
+}
+
+.header_area .navbar .nav .nav-item.submenu ul .nav-item {
+    display: block;
+    float: none;
+    margin-right: 0px;
+    border-bottom: 1px solid #ededed;
+    margin-left: 0px;
+    transition: all 0.4s linear;
+}
+
+.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+    line-height: 45px;
+    color: #222222;
+    padding: 0px 30px;
+    transition: all 150ms linear;
+    display: block;
+    margin-right: 0px;
+}
+
+.header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
+    border-bottom: none;
+}
+
+.header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
+    background: #e45447;
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .header_area .navbar .nav .nav-item.submenu:hover ul {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+}
+
+.header_area .navbar .nav .nav-item.submenu:hover ul .nav-item {
+    margin-top: 0px;
+}
+
+.header_area .navbar .nav .nav-item:last-child {
+    margin-right: 0px;
+}
+
+.header_area.navbar_fixed .main_menu {
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    background: #ffd200;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+    line-height: 70px;
+}
+
+@media (min-width: 992px) {
+    .header_area.white_menu .navbar .navbar-brand img {
+        display: none;
+    }
+    .header_area.white_menu .navbar .navbar-brand img+img {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 991px) {
+    .header_area.white_menu .navbar .navbar-brand img {
+        display: inline-block;
+    }
+    .header_area.white_menu .navbar .navbar-brand img+img {
+        display: none;
+    }
+}
+
+.header_area.white_menu .navbar .nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img {
+    display: inline-block;
+}
+
+.header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img+img {
+    display: none;
+}
+
+.header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+    line-height: 70px;
+    color: #222222;
+}
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* Home Banner Area css
+============================================================================================ */
+
+.banner-area .single_slide_banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-area .slide_bg1 {
+    background: url(../imgs/banner-bg1.jpg);
+}
+
+.banner-area .slide_bg2 {
+    background: url(../imgs/banner-bg2.jpg);
+}
+
+.banner-area .slide_bg3 {
+    background: url(../imgs/banner-bg3.jpg);
+    /* background: url(../imgs/b4.jpg); */
+}
+
+@media (max-width: 991px) {
+    .banner-area .fullscreen {
+        height: 600px !important;
+    }
+}
+
+.banner-content {
+    text-align: left;
+}
+
+@media (max-width: 1680px) {
+    .banner-content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .banner-content {
+        padding: 48px 20px;
+        background: #fff;
+        margin: 0 15px;
+    }
+}
+
+.banner-content .primary-btn {
+    background: #e45447;
+    border: 2px solid transparent;
+    color: #fff;
+}
+
+.banner-content .primary-btn:hover {
+    background: transparent;
+    border-color: #e45447;
+    color: #000;
+}
+
+.banner-content h1 {
+    color: #000;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .banner-content h1 {
+        font-size: 40px;
+    }
+}
+
+.banner-content h3 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .banner-content h3 {
+        font-size: 20px;
+    }
+}
+
+
+/* End Home Banner Area css
+============================================================================================ */
+
+.banner_area {
+    position: relative;
+    z-index: 1;
+    min-height: 400px;
+}
+
+.banner_area .banner_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 400px;
+    background-image: url(../imgs/common-banner.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+.banner_area .banner_inner .banner_content h1 {
+    color: #000;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.banner_area .banner_inner .banner_content .page_link {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 0px 20px;
+    line-height: 46px;
+}
+
+.banner_area .banner_inner .banner_content .page_link a {
+    font-size: 14px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    margin-right: 14px;
+    position: relative;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:before {
+    position: absolute;
+    content: "";
+    height: 200%;
+    width: 1px;
+    right: -10px;
+    top: 54%;
+    background: #000;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.banner_area .banner_inner .banner_content .page_link a:last-child {
+    margin-right: 0px;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:last-child:before {
+    display: none;
+}
+
+
+/* End Home Banner Area css
+============================================================================================ */
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* Projects Area css
+============================================================================================ */
+
+
+/* End Projects Area css
+============================================================================================ */
+
+
+/* Portfolio Details Area css
+============================================================================================ */
+
+
+/* End Portfolio Details Area css
+============================================================================================ */
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* Progress bar Area css
+============================================================================================ */
+
+.loaders {
+    margin-top: 98px;
+}
+
+.loader_container {
+    width: 25%;
+    height: 265px;
+    float: left;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.loader {
+    width: 195px;
+    height: 195px;
+    margin: 0 auto;
+    background: transparent;
+}
+
+.loader_content {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: 500;
+    color: #232323;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.loader_title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #100f3a;
+    text-transform: uppercase;
+    line-height: 0.75;
+}
+
+.loader_subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7a798c;
+    margin-top: 12px;
+}
+
+.progressbar-text {
+    top: 37% !important;
+}
+
+@media only screen and (max-width: 1600px) {
+    /* .loader_container {
+        width: 50%;
+        margin-bottom: 60px;
+    } */
+}
+
+@media only screen and (max-width: 767px) {
+    .loader_container {
+        width: 100%;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+/* Progress bar Area css
+============================================================================================ */
+
+
+/*========= blog_categorie_area css ===========*/
+
+
+/*============ End Blog Single Styles  =============*/
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/*============== contact_area css ================*/
+
+b,
+sup,
+sub,
+u,
+del {
+    color: #f8b600;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+    color: #777777;
+}
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* Start About Area css
+============================================================================================ */
+
+.about-area .main-title {
+    margin-bottom: 30px;
+}
+
+.about-area .main-title h1 {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.about-area .main-title h1:before {
+    left: 10%;
+}
+
+@media (max-width: 1200px) {
+    .about-area .main-title h1:before {
+        left: 12%;
+    }
+}
+
+@media (max-width: 991px) {
+    .about-area .main-title h1:before {
+        left: 8%;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-area .main-title h1:before {
+        left: 10%;
+    }
+}
+
+.about-area .main-title h1:after {
+    left: 5px;
+}
+
+@media (max-width: 1024px) {
+    .about-area .main-title {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .about-area .about-left {
+        display: none;
+    }
+}
+
+.about-area .primary-btn {
+    margin-top: 40px;
+}
+
+
+/* End About Area css
+============================================================================================ */
+
+
+/* Start Portfolio Area css
+============================================================================================ */
+
+.photobox__label {
+    width: 95%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9), transform calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9);
+    will-change: opacity, transform;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    z-index: 3;
+    display: inline-block;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.website:hover .photobox__label {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    transition-duration: calc(var(--photoboxAnimationDuration, .8s) / 2);
+    transition-delay: calc(var(--photoboxAnimationDuration, .8s) / 4);
+}
+
+
+/* End Portfolio Area css
+============================================================================================ */
+
+
+/* Testimonials Area css
+============================================================================================ */
+
+.testimonail {
+    padding: 95px 0;
+    background-color: purple
+}
+
+.slide-one-item .slide blockquote {
+    position: relative;
+    max-width: 700px;
+    font-size: 1.2rem;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+}
+
+.slide-one-item .slide blockquote:before {
+    color: #fff;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-family: 'icomoon';
+    content: '"';
+}
+
+.slide-one-item .owl-dots {
+    text-align: center;
+}
+
+.slide-one-item .owl-dots .owl-dot {
+    display: inline-block;
+}
+
+.slide-one-item .owl-dots .owl-dot>span {
+    margin: 7px;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.slide-one-item .owl-dots .owl-dot:hover>span {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.slide-one-item .owl-dots .owl-dot.active>span {
+    background: #fff;
+}
+
+.slide-one-item .slide cite {
+    margin-top: 50px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* End Testimonials Area css
+============================================================================================ */
+
+
+/*----------------------------------------------------*/
+
+@media (max-width: 991px) {
+    /* Main Menu Area css
+	============================================================================================ */
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-bottom: 23px;
+    }
+    .header_area .navbar {
+        background: #e45447;
+    }
+    .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+        opacity: 1;
+    }
+    .navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+        opacity: 0;
+    }
+    .navbar-toggler[aria-expanded="true"] span:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7.5px;
+    }
+    .navbar-toggler[aria-expanded="true"] span:last-child {
+        transform: rotate(45deg);
+        bottom: 6px;
+        position: relative;
+    }
+    .navbar-toggler span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        margin: auto;
+        margin-bottom: 4px;
+        transition: all 400ms linear;
+        cursor: pointer;
+    }
+    .navbar .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav {
+        padding: 0px 0px;
+    }
+    .header_area+section,
+    .header_area+row,
+    .header_area+div {
+        margin-top: 117px;
+    }
+    .header_top .nav {
+        padding: 0px;
+    }
+    .header_area .navbar .nav .nav-item .nav-link {
+        line-height: 40px;
+        margin-right: 0px;
+        display: block;
+        border-bottom: 1px solid #ededed33;
+        border-radius: 0px;
+    }
+    .header_area .navbar .search {
+        margin-left: 0px;
+    }
+    .header_area .navbar-collapse {
+        max-height: 340px;
+        overflow-y: scroll;
+    }
+    .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+        padding: 0px 15px;
+    }
+    .header_area .navbar .nav .nav-item {
+        margin-right: 0px;
+    }
+    .header_area+section,
+    .header_area+row,
+    .header_area+div {
+        margin-top: 71px;
+    }
+    .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+    .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+    .header_area.white_menu .navbar .nav .nav-item .nav-link {
+        color: #222;
+    }
+    /* End Main Menu Area css
+  ============================================================================================ */
+}
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* Footer Area css
+============================================================================================ */
+
+.footer_area {
+    background: #ffd200;
+}
+
+.social_widget .f_title h4 {
+    font-size: 21px;
+    margin: 40px 0 20px;
+    color: #000;
+}
+
+.social_widget p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.social_widget .list li {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.social_widget .list li a {
+    color: #c48e0b;
+    font-size: 36px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.social_widget .list li:last-child {
+    margin-right: 0px;
+}
+
+.social_widget .list li:hover a {
+    color: #e45447;
+}
+
+.copyright {
+    margin-top: 40px;
+}
+
+.copyright p {
+    color: #000;
+}
+
+.copyright p a {
+    color: #e45447;
+}
+
+
+/* End Footer Area css
+============================================================================================ */
+
+
+/*---------------------------------------------------- */
